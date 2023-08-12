@@ -10,7 +10,7 @@ Unlike other course projects that focus on Wiki project, Commerce, Mail, and Net
 __________________________________________________________________________________________________________________________
 ## Website Features:
 
-### Features of the quiz test:
+### quiz test Features:
 -	All questions are multiple-choice questions.
 -	Each question is displayed only once per user.
 -	Questions are displayed randomly for every user.
