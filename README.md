@@ -1,30 +1,20 @@
-# About The Online Quiz System
+# HarvardX CS50W: Web Programming with Python and JavaScript
 > - [Harvard-Cs50 Final Project](https://cs50.harvard.edu/web/2020/)
 
-## Scenarios and objectives for creating an online Quiz project
+## PURPOSE OF THE PROJECT:
+This is my final project for Harvard CS50x course.
 Creating an online test project aims to increase competition and effort among the students. To be listed on the website, students must constantly read and review their lessons, complete teacher-assigned daily tests, and participate in self-assessments.
 
-## Project features and capabilities
-Teachers: The project allows teachers and professors to create daily or weekly competitions and assignments for students by using online multiple-choice tests. 
-Students: Students can take these quizzes by creating an account on the website, logging into the user dashboard, and viewing their scores after completing the quiz.
-Additionally, the site includes a leaderboard section where users can see the top candidates and their test scores.
-
-## What distinguishes this project from others? (Distinctiveness and Complexity)
-Unlike other course projects that focus on Wiki project, Commerce, Mail, and Network, this project focuses on an online QUIZ system. Furthermore, it offers more benefits to students than other projects.
-
-## Reasons for implementation of the project :
-1. Reviewing students' lessons and assignments.
-2. Evaluating their progress and facilitating the learning of new course materials.
-3. Exploring an online testing system.
-4. Foster competition and cultivate a positive attitude towards learning.
-
+## Distinctiveness and Complexity:
+Unlike other course projects that focus on Wiki project, Commerce, Mail, and Network, this project focuses on an online QUIZ system. Furthermore, it offers more benefits to students than other projects, and This project helps students to measure their skills compared to their other friends and review their lessons.
+__________________________________________________________________________________________________________________________
 ## Website Features:
 
 ### Features of the quiz test:
 -	All questions are multiple-choice questions.
 -	Each question is displayed only once per user.
 -	Questions are displayed randomly for every user.
--	If the user by mistake presses refresh or go back to the previous page, there will be a new question for the user and the question he/she was on will be marked as attempted.
+-	If the user by mistake presses refresh or go back to the previous page, there will be a new question for the user and the question he/she was on will be marked as   attempted.
 -	A message will be displayed after every attempted question whether the answer was correct or incorrect.
 
 ### Leaderboard features:
@@ -50,15 +40,26 @@ ________________________________________________________________________________
 5.	python manage.py migrate
 6.	python manage.py createsuperuser
 7.	python manage.py runserver
-__________________________________________________________________________________________________________________
-## Description of project files:
+__________________________________________________________________________________________________________________________
+## Files and directories:
 
-```runtime.txt```   --   Python version to running the web program\
+```/templates/base.html```   --   base HTML structure\
+```/templates/quiz/error_404.html & error_500.html```   --   template Error Page\
+```/templates/quiz/home.html```   --   template main Global page\
+```/templates/quiz/leaderboard.html```   --   template Leaderboard for Show Score of student\
+```/templates/quiz/login.html```   --  template login page\
+```/templates/quiz/play.html```   --   template page for start and play quiz\
+```/templates/quiz/registration.html```   --   template page for registration User\
+```/templates/quiz/submission_result.html```   --   submit Result of Quiz\
+```/templates/quiz/user_home.html```   --   template home page for Website Users\
+```/templates/admin/base_site.html```   --   template Base Admin page\
+```/static/css/main.css```   --   Main CSS File\
+```/static/js/main.js```   --   Main javaScript File\
+```/QuizApp/urls.py```   --   all application URLs\
+```/QuizApp/settings.py```   --   Application CORE settings\
 ```requirements.txt```  --  all requirements to install for program\
-```Procfile```   --   This file is used to explicitly declare your application’s process types and entry points.\
-```pipfile```   --   Pipfile is the dedicated file used by the Pipenv virtual environment to manage project dependencies. This file is essential for using Pipenv.\
 ```manage.py```   --   Main file for run project\
 ```db.sqlite3```   --   Website Database\
-```/templates```   --   Static Front-end (HTML)\
-```/static```   --   Main CSS and JavaScript Files\
-```/QuizApp & /quiz_app```   --   Django CORE directory structure
+```runtime.txt```   --   Python version to running the web program\
+```Procfile```   --   This file is used to explicitly declare your application’s process types and entry points.\
+```pipfile```   --   Pipfile is the dedicated file used by the Pipenv virtual environment to manage project dependencies. This file is essential for using Pipenv.
