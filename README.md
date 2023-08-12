@@ -61,5 +61,3 @@ ________________________________________________________________________________
 ```manage.py```   --   Main file for run project\
 ```db.sqlite3```   --   Website Database\
 ```runtime.txt```   --   Python version to running the web program\
-```Procfile```   --   This file is used to explicitly declare your application’s process types and entry points.\
-```pipfile```   --   Pipfile is the dedicated file used by the Pipenv virtual environment to manage project dependencies. This file is essential for using Pipenv.
