@@ -3,11 +3,11 @@
 
 #### Video Demo: https://youtu.be/V7lro9pbKKA?si=AKzpITa0QSjqWNh-
 
-## Purpose of the project:
+# Purpose of the project:
 This is my final project for The Harvard CS50 Web course.
 Creating an online Quiz project aims to increase competition and effort among the students. To be listed on the website, students must constantly read and review their lessons, complete teacher-assigned daily tests, and participate in self-assessments.
 
-## Distinctiveness and Complexity:
+# Distinctiveness and Complexity:
 Distinctiveness of this project Unlike other course projects focusing on Wiki projects, Commerce, Mail, and Network, this project focuses on an online QUIZ system. Furthermore, it offers more benefits to students than other projects, and This project helps students to measure their skills compared to their other friends and review their lessons, The complexity of this project is to display questions randomly for each user and Each question once displayed for users, and the users can see grade results after the quiz, These were the three challenges and complications that I faced during the construction of the project and implemented it.
 __________________________________________________________________________________________________________________________
 ## Website Features:
