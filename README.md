@@ -46,42 +46,42 @@ ________________________________________________________________________________
 ## Files and directories:
 
 #### quiz_app directory
-- ```/quiz_app/__init__.py ```                            --     Python file that is used to indicate that the directory it is present in is a Python package\
-- ```/quiz_app/admin.py ```                               --     this file is used for registering the models into the django administration. The models that are present have a superuser/admin who can control the information that is being stored.\
-- ```/quiz_app/apps.py ```                                --     This file deals with the application configuration of the apps. The default configuration is sufficient enough in most of the cases\
-- ```/quiz_app/forms.py ```                               --     where the Django documentation places all forms of code; to keep your code easily maintainable\  
-- ```/quiz_app/models.py ```                              --     ORM profile model. Contains an Profile class which has all information of a user\
-- ```/quiz_app/tests.py ```                               --     Django uses the unittest module's built-in test discovery, which will discover tests under the current working directory in any file named\
-- ```/quiz_app/urls.py ```                                --     prep-defined path for the admin app. However, Django recommends mapping all resources via another This file is newly created under the app\
-- ```/quiz_app/views.py ```                               --     Contains all view functions for profile, like view, edit and delete profile as well as change password\
+- ```/quiz_app/__init__.py ```                            --     Python file that is used to indicate that the directory it is present in is a Python package
+- ```/quiz_app/admin.py ```                               --     this file is used for registering the models into the django administration. The models that are present have a superuser/admin who can control the information that is being stored.
+- ```/quiz_app/apps.py ```                                --     This file deals with the application configuration of the apps. The default configuration is sufficient enough in most of the cases
+- ```/quiz_app/forms.py ```                               --     where the Django documentation places all forms of code; to keep your code easily maintainable 
+- ```/quiz_app/models.py ```                              --     ORM profile model. Contains an Profile class which has all information of a user
+- ```/quiz_app/tests.py ```                               --     Django uses the unittest module's built-in test discovery, which will discover tests under the current working directory in any file named
+- ```/quiz_app/urls.py ```                                --     prep-defined path for the admin app. However, Django recommends mapping all resources via another This file is newly created under the app
+- ```/quiz_app/views.py ```                               --     Contains all view functions for profile, like view, edit and delete profile as well as change password
 
 #### QuizApp directory
-- ```/QuizApp/__init__.py```                              --     Python file that is used to indicate that the directory it is present in is a Python package\
-- ```/QuizApp/asgi.py```                                  --     ASGI provides an interface between asynchronous Python web servers and frameworks\
-- ```/QuizApp/settings.py```                              --     Application CORE settings\
-- ```/QuizApp/urls.py```                                  --     all application URLs\
+- ```/QuizApp/__init__.py```                              --     Python file that is used to indicate that the directory it is present in is a Python package
+- ```/QuizApp/asgi.py```                                  --     ASGI provides an interface between asynchronous Python web servers and frameworks
+- ```/QuizApp/settings.py```                              --     Application CORE settings
+- ```/QuizApp/urls.py```                                  --     all application URLs
 - ```/QuizApp/wsgi.py```                                  --     mediator that communicates between web servers and Python web applications
 
 #### static directory
-- ```/static/css/main.css```                              --     Main CSS File\
+- ```/static/css/main.css```                              --     Main CSS File
 - ```/static/js/main.js```                                --     Main javaScript File
 
 #### templates directory
-- ```/templates/admin/base_site.html```                   --     template Base Admin page\
-- ```/templates/quiz/error_404.html & error_500.html```   --     template Error Page\
-- ```/templates/quiz/home.html```                         --     template main Global page\
-- ```/templates/quiz/leaderboard.html```                  --     template Leaderboard for Show Score of student\
-- ```/templates/quiz/login.html```                        --     template login page\
-- ```/templates/quiz/play.html```                         --     template page for start and play quiz\
-- ```/templates/quiz/registration.html```                 --     template page for registration User\
-- ```/templates/quiz/submission_result.html```            --     submit Result of Quiz\
-- ```/templates/quiz/user_home.html```                    --     template home page for Website Users\
+- ```/templates/admin/base_site.html```                   --     template Base Admin page
+- ```/templates/quiz/error_404.html & error_500.html```   --     template Error Page
+- ```/templates/quiz/home.html```                         --     template main Global page
+- ```/templates/quiz/leaderboard.html```                  --     template Leaderboard for Show Score of student
+- ```/templates/quiz/login.html```                        --     template login page
+- ```/templates/quiz/play.html```                         --     template page for start and play quiz
+- ```/templates/quiz/registration.html```                 --     template page for registration User
+- ```/templates/quiz/submission_result.html```            --     submit Result of Quiz
+- ```/templates/quiz/user_home.html```                    --     template home page for Website Users
 - ```/templates/base.html```                              --     base HTML structure
 
 #### root directory
-- ```db.sqlite3```                                        --     Website Database\
-- ```manage.py```                                         --     Main file for run project\
-- ```Pipfile```                                           --     dedicated file used by the Pipenv virtual environment to manage project dependencies\
-- ```Procfile```                                          --     Procfile lists the process types in an application\
-- ```requirements.txt```                                  --     all requirements to install for program\
+- ```db.sqlite3```                                        --     Website Database
+- ```manage.py```                                         --     Main file for run project
+- ```Pipfile```                                           --     dedicated file used by the Pipenv virtual environment to manage project dependencies
+- ```Procfile```                                          --     Procfile lists the process types in an application
+- ```requirements.txt```                                  --     all requirements to install for program
 - ```runtime.txt```                                       --     Python version to running the web program
