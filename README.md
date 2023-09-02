@@ -78,7 +78,7 @@ ________________________________________________________________________________
 - ```/templates/quiz/user_home.html```                    --     template home page for Website Users
 - ```/templates/base.html```                              --     base HTML structure
 
-#### root directory
+#### main root directory
 - ```db.sqlite3```                                        --     Website Database
 - ```manage.py```                                         --     Main file for run project
 - ```Pipfile```                                           --     dedicated file used by the Pipenv virtual environment to manage project dependencies
