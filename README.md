@@ -1,3 +1,8 @@
-Foldername
-- item1
-- item2
+- ```/quiz_app/__init__.py ```                            --     Python file that is used to indicate that the directory it is present in is a Python package\
+- ```/quiz_app/admin.py ```                               --     this file is used for registering the models into the django administration. The models that are present have a superuser/admin who can control the information that is being stored.\
+- ```/quiz_app/apps.py ```                                --     This file deals with the application configuration of the apps. The default configuration is sufficient enough in most of the cases\
+- ```/quiz_app/forms.py ```                               --   where the Django documentation places all forms of code; to keep your code easily maintainable\  
+- ```/quiz_app/models.py ```                              --     ORM profile model. Contains an Profile class which has all information of a user\
+- ```/quiz_app/tests.py ```                               --     Django uses the unittest module's built-in test discovery, which will discover tests under the current working directory in any file named\
+- ```/quiz_app/urls.py ```                                --     prep-defined path for the admin app. However, Django recommends mapping all resources via another This file is newly created under the app\
+- ```/quiz_app/views.py ```                               --     Contains all view functions for profile, like view, edit and delete profile as well as change password\
