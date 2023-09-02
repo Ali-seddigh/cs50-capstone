@@ -13,47 +13,47 @@ ________________________________________________________________________________
 ## Website Features:
 
 ### quiz test Features:
--	All questions are multiple-choice questions.
--	Each question is displayed only once per user.
--	Questions are displayed randomly for every user.
--	If the user by mistake presses refresh or go back to the previous page, there will be a new question for the user and the question he/she was on will be marked as   attempted.
--	A message will be displayed after every attempted question whether the answer was correct or incorrect.
+-   All questions are multiple-choice questions.
+-   Each question is displayed only once per user.
+-   Questions are displayed randomly for every user.
+-   If the user by mistake presses refresh or go back to the previous page, there will be a new question for the user and the question he/she was on will be marked as attempted.
+-   A message will be displayed after every attempted question whether the answer is correct or incorrect.
 
 ### Leaderboard features:
--	Leaderboard is a short list according to the score obtained by the users.
--	If two users are having the same score, the user who has signed up earlier will have good ranking than the one who joined late.
--	Leaderboard is open to all.
+-   Leaderboard is a short list according to the score obtained by the users.
+-   If two users have the same score, the user who has signed up earlier will have a better ranking than the one who joined late.
+-   Leaderboard is open to all.
 
 ### Admin features:
--	Only the admin can add questions.
--	Admin can add questions and modify them until they are not marked as Has been published?
--	Once a question has been published, it can neither be modified nor can be accessed. Admin can only see a list of questions.
--	Admin can search questions by question text or choice text.
--	Admin can filter questions based on whether the questions have been published or not.
+-   Only the admin can add questions.
+-   Admin can add questions and modify them until they are not marked as Has been published?
+-   Once a question has been published, it can neither be modified nor can be accessed. Admin can only see a list of questions.
+-   Admin can search questions by question text or choice text.
+-   Admin can filter questions based on whether the questions have been published or not.
 __________________________________________________________________________________________________________________________
 ## Technologies used : 
 HTML – CSS || JavaScript || Bootstrap4 (Mobile Responsive) || Python - Django framework
 __________________________________________________________________________________________________________________________
 ## How to Run the Program:
-1.	cd quiz application directory
-2.	pip install pipenv
-3.	pipenv shell
-4.	pip install -r requirements.txt
-5.	python manage.py migrate
-6.	python manage.py createsuperuser
-7.	python manage.py runserver
+1.  cd quiz application directory
+2.  pip install pipenv
+3.  pipenv shell
+4.  pip install -r requirements.txt
+5.  python manage.py migrate
+6.  python manage.py createsuperuser
+7.  python manage.py runserver
 __________________________________________________________________________________________________________________________
 ## Files and directories:
 
 #### quiz_app directory
 - ```/quiz_app/__init__.py ```                            --     Python file that is used to indicate that the directory it is present in is a Python package
-- ```/quiz_app/admin.py ```                               --     this file is used for registering the models into the django administration. The models that are present have a superuser/admin who can control the information that is being stored.
+- ```/quiz_app/admin.py ```                               --     this file is used for registering the models into the Django administration. The models that are present have a superuser/admin who can control the information that is being stored.
 - ```/quiz_app/apps.py ```                                --     This file deals with the application configuration of the apps. The default configuration is sufficient enough in most of the cases
 - ```/quiz_app/forms.py ```                               --     where the Django documentation places all forms of code; to keep your code easily maintainable 
-- ```/quiz_app/models.py ```                              --     ORM profile model. Contains an Profile class which has all information of a user
-- ```/quiz_app/tests.py ```                               --     Django uses the unittest module's built-in test discovery, which will discover tests under the current working directory in any file named
+- ```/quiz_app/models.py ```                              --     ORM profile model. Contains a Profile class which has all the information of a user
+- ```/quiz_app/tests.py ```                               --     Django uses the unit test module's built-in test discovery, which will discover tests under the current working directory in any file named
 - ```/quiz_app/urls.py ```                                --     prep-defined path for the admin app. However, Django recommends mapping all resources via another This file is newly created under the app
-- ```/quiz_app/views.py ```                               --     Contains all view functions for profile, like view, edit and delete profile as well as change password
+- ```/quiz_app/views.py ```                               --     Contains all view functions for profile, like view, edit, and delete profile as well as change password
 
 #### QuizApp directory
 - ```/QuizApp/__init__.py```                              --     Python file that is used to indicate that the directory it is present in is a Python package
@@ -64,13 +64,13 @@ ________________________________________________________________________________
 
 #### static directory
 - ```/static/css/main.css```                              --     Main CSS File
-- ```/static/js/main.js```                                --     Main javaScript File
+- ```/static/js/main.js```                                --     Main JavaScript File
 
 #### templates directory
 - ```/templates/admin/base_site.html```                   --     template Base Admin page
 - ```/templates/quiz/error_404.html & error_500.html```   --     template Error Page
 - ```/templates/quiz/home.html```                         --     template main Global page
-- ```/templates/quiz/leaderboard.html```                  --     template Leaderboard for Show Score of student
+- ```/templates/quiz/leaderboard.html```                  --     template Leaderboard for Show-Score of student
 - ```/templates/quiz/login.html```                        --     template login page
 - ```/templates/quiz/play.html```                         --     template page for start and play quiz
 - ```/templates/quiz/registration.html```                 --     template page for registration User
