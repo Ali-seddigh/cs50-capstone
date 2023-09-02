@@ -1,5 +1,5 @@
 # Online Quiz System Project
-> - [Harvard-Cs50 Final Project](https://cs50.harvard.edu/web/2020/)
+> - [Harvard-Cs50w Final Project](https://cs50.harvard.edu/web/2020/)
 
 #### Video Demo: https://youtu.be/V7lro9pbKKA?si=AKzpITa0QSjqWNh-
 
